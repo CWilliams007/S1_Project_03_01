@@ -4,13 +4,15 @@
    New Perspectives on HTML5 and CSS3, 7th Edition
    Tutorial 2
    Case Problem 1
+	
+   Philip Henslowe Classic Theatre
+   Author: Chad Williams
+   Date:  9.6.18
    
    PHCT Layout Styles
    Filename: ph_layout.css
 
 */
-
-
 body {
 	margin: 0 auto;
 	width: 100%;
@@ -18,19 +20,17 @@ body {
 	min-width: 640px;
 }
 
-body > header {
+body>header {
 	margin: 0;
 	padding: 0px;
 	width: 100%;
 }
 
-body > header > img {
+body>header>img {
 	margin: 0px;
 	padding: 0px;
 	width: 100%;
 }
-
-
 
 /* Navigation List Styles */
 nav {
@@ -38,28 +38,25 @@ nav {
 	width: 100%;
 }
 
-nav > ul {
+nav>ul {
 	display: table-row;
 }
 
-nav > ul > li {
+nav>ul>li {
 	display: table-cell;
 	text-align: center;
 }
 
-nav > ul > li > a {
+nav>ul>li>a {
 	display: block;
 }
 
-
 /* Section Styles */
-
 section {
 	clear: right;
 }
 
 /* Description List Styles */
-
 dl {
 	float: right;
 	width: 40%;
